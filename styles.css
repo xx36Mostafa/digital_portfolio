@@ -62,8 +62,7 @@ body {
     padding: 100px 0;
 }
 
-/* Navig
-ation */
+/* Navigation */
 .navbar {
     position: fixed;
     top: 0;
@@ -143,7 +142,7 @@ ation */
     width: 100%;
 }
 
-.na v-buttons {
+.nav-buttons {
     display: flex;
     gap: 15px;
 }
@@ -293,11 +292,12 @@ ation */
     margin-right: auto;
 }
 
-. social-links {
+.social-links {
     display: flex;
     gap: 20px;
     justify-content: center;
     margin-bottom: 40px;
+    align-items: center;
 }
 
 .social-icon {
@@ -369,7 +369,7 @@ ation */
     animation: fadeIn 1s ease forwards;
 }
 
-.fade-in- delay-1 {
+.fade-in-delay-1 {
     animation: fadeIn 1s ease 0.2s forwards;
     opacity: 0;
 }
@@ -458,7 +458,7 @@ ation */
     font-size: 1.2rem;
 }
 
-.abo ut-image {
+.about-image {
     display: flex;
     justify-content: center;
 }
@@ -529,8 +529,7 @@ ation */
     font-weight: bold;
 }
 
-/* 
-Skills Section */
+/* Skills Section */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -601,7 +600,7 @@ Skills Section */
     background: var(--accent-blue);
 }
 
-.timel ine-item {
+.timeline-item {
     position: relative;
     margin-bottom: 50px;
 }
@@ -672,7 +671,7 @@ Skills Section */
     list-style: none;
 }
 
-.timel ine-content ul li {
+.timeline-content ul li {
     padding: 8px 0;
     color: var(--text-secondary);
     position: relative;
@@ -739,7 +738,7 @@ Skills Section */
     margin-bottom: 30px;
 }
 
-.cert-i tem {
+.cert-item {
     position: relative;
     padding-left: 20px;
     margin-bottom: 25px;
@@ -814,7 +813,7 @@ Skills Section */
     font-size: 20px;
 }
 
-.project -date {
+.project-date {
     background: rgba(99, 102, 241, 0.2);
     color: var(--accent-blue);
     padding: 5px 12px;
@@ -887,7 +886,7 @@ Skills Section */
     transition: var(--transition);
 }
 
-.contac t-card:hover {
+.contact-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(99, 102, 241, 0.3);
 }
@@ -962,7 +961,7 @@ Skills Section */
     z-index: 999;
 }
 
-.scr oll-top.visible {
+.scroll-top.visible {
     opacity: 1;
     visibility: visible;
 }
@@ -1038,7 +1037,7 @@ Skills Section */
     }
 }
 
-@med ia (max-width: 768px) {
+@media (max-width: 768px) {
 
     .nav-menu,
     .nav-buttons {

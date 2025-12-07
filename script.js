@@ -61,11 +61,11 @@ function typeWriter(element, text, speed = 100) {
 // Start typing animation after page load
 window.addEventListener('load', () => {
     setTimeout(() => {
-        typeWriter(typingName, 'Your Name', 150);
+        typeWriter(typingName, 'Mustafa Nasser', 150);
     }, 500);
 
     setTimeout(() => {
-        typeWriter(typingRole, 'Full Stack Developer', 100);
+        typeWriter(typingRole, 'AI & Automation Engineer | Web Scraper Expert', 100);
     }, 2500);
 });
 
